@@ -1,0 +1,11 @@
+C:\Users\vrati\source\repos\Opakovani3ITB\Opakovani3ITB\bin\Debug\Opakovani3ITB.exe.config
+C:\Users\vrati\source\repos\Opakovani3ITB\Opakovani3ITB\bin\Debug\Opakovani3ITB.exe
+C:\Users\vrati\source\repos\Opakovani3ITB\Opakovani3ITB\bin\Debug\Opakovani3ITB.pdb
+C:\Users\vrati\source\repos\Opakovani3ITB\Opakovani3ITB\obj\Debug\Opakovani3ITB.Form1.resources
+C:\Users\vrati\source\repos\Opakovani3ITB\Opakovani3ITB\obj\Debug\Opakovani3ITB.Properties.Resources.resources
+C:\Users\vrati\source\repos\Opakovani3ITB\Opakovani3ITB\obj\Debug\Opakovani3ITB.csproj.GenerateResource.cache
+C:\Users\vrati\source\repos\Opakovani3ITB\Opakovani3ITB\obj\Debug\Opakovani3ITB.csproj.CoreCompileInputs.cache
+C:\Users\vrati\source\repos\Opakovani3ITB\Opakovani3ITB\obj\Debug\Opakovani3ITB.exe
+C:\Users\vrati\source\repos\Opakovani3ITB\Opakovani3ITB\obj\Debug\Opakovani3ITB.pdb
+C:\Users\vrati\source\repos\Opakovani3ITB\Opakovani3ITB\obj\Debug\Opakovani3ITB.Square.resources
+C:\Users\vrati\source\repos\Opakovani3ITB\Opakovani3ITB\obj\Debug\Opakovani3ITB.csprojAssemblyReference.cache
