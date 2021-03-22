@@ -13,6 +13,7 @@ namespace Opakovani3ITB
     public partial class Form1 : Form
     {
         int squareSize = 100;
+        private List<ConnectedSquare> connectedSquares = new List<ConnectedSquare>();
 
         public Form1() {
             InitializeComponent();
@@ -49,9 +50,39 @@ namespace Opakovani3ITB
         }
 
         private void button1_Click(object sender, EventArgs e) {
-            Square sq = new ResizableSquare();
+            SetupSquare(new ResizableSquare());
+        }
+
+        private void button2_Click(object sender, EventArgs e) {
+            SetupSquare(new ClickCounterSquare());
+        }
+
+        private void SetupSquare(Square sq) {
             sq.Location = GetPosition();
             panel1.Controls.Add(sq);
+        }
+
+        private void button3_Click(object sender, EventArgs e) {
+            SetupSquare(new GreetingSquare());
+        }
+
+        private void button4_Click(object sender, EventArgs e) {
+            SetupSquare(new ChessSquare());
+        }
+
+        private void button5_Click(object sender, EventArgs e) {
+            ConnectedSquare sq = new ConnectedSquare();
+            sq.ConnectedChanged += OnConnectedChanged;
+            connectedSquares.Add(sq);
+            SetupSquare(sq);
+        }
+
+        private void OnConnectedChanged() {
+            var connected = connectedSquares.Where(x=>x.IsConnected).ToList();
+            if(connected.Count > 1) {
+                Console.WriteLine("Je jich víc než 1, můžu propojovat");
+                // propojení prvků čárou!
+            }
         }
     }
 }

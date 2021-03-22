@@ -8,10 +8,18 @@ using System.Windows.Forms;
 
 namespace Opakovani3ITB
 {
-    public class ClickCounterSquare : Square
+    public class ClickCounterSquare : LabelSquare
     {
+        int clickCount = 0;
+
         public override void OnMouseClicked(Point position, MouseButtons button) {
-            
+            if(button == MouseButtons.Left) {
+                clickCount--;
+            } else {
+                clickCount++;
+            }
+
+            CustomText = clickCount.ToString();
         }
     }
 }

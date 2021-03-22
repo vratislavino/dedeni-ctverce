@@ -11,7 +11,10 @@ namespace Opakovani3ITB
     {
         private static Dictionary<Type, Color> _colors = new Dictionary<Type, Color>() {
             { typeof(ResizableSquare), Color.Gold },
-            { typeof(ClickCounterSquare), Color.DarkRed }
+            { typeof(ClickCounterSquare), Color.DarkRed },
+            { typeof(GreetingSquare), Color.Green },
+            { typeof(ChessSquare), Color.Magenta },
+            { typeof(ConnectedSquare), Color.SkyBlue },
         };
 
         public static Color GetColorByType(Type t) {
