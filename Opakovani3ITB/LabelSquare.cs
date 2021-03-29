@@ -18,6 +18,7 @@ namespace Opakovani3ITB
 
         private void PrepareLabel() {
             label = new Label();
+            label.BackColor = Color.Transparent;
             label.AutoSize = false;
             label.Width = Width;
             label.Height = Height / 3;

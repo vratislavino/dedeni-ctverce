@@ -15,6 +15,8 @@ namespace Opakovani3ITB
             { typeof(GreetingSquare), Color.Green },
             { typeof(ChessSquare), Color.Magenta },
             { typeof(ConnectedSquare), Color.SkyBlue },
+            { typeof(DateSquare), Color.Gray },
+            { typeof(GradientSquare), Color.Black },
         };
 
         public static Color GetColorByType(Type t) {

@@ -84,5 +84,13 @@ namespace Opakovani3ITB
                 // propojení prvků čárou!
             }
         }
+
+        private void button6_Click(object sender, EventArgs e) {
+            SetupSquare(new DateSquare());
+        }
+
+        private void button7_Click(object sender, EventArgs e) {
+            SetupSquare(new GradientSquare());
+        }
     }
 }
